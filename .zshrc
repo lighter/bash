@@ -87,3 +87,6 @@ source $ZSH/oh-my-zsh.sh
 # -------------------------------------------
 # zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+# bashrc
+[[ -e ~/.bashrc  ]] && emulate sh -c 'source ~/.bashrc'

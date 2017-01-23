@@ -8,9 +8,12 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 #enables color for iTerm
 export TERM=xterm-color
 
+# brew sbin
+export PATH="/usr/local/sbin:$PATH"
+
 # nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh"   ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+# [[ -s $HOME/.nvm/nvm.sh  ]] && . $HOME/.nvm/nvm.sh
+export NVM_DIR="$HOME/.nvm" && . "/usr/local/opt/nvm/nvm.sh"
 
 # rvm
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
