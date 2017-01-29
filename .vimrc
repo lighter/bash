@@ -47,6 +47,7 @@ NeoBundle 'breuckelen/vim-resize'
 NeoBundle 'justincampbell/vim-eighties'
 NeoBundle 'dkprice/vim-easygrep'
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'tpope/vim-endwise'
 
 " 解決powerline 箭號
 let g:airline_powerline_fonts = 1
