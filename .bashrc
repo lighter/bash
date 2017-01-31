@@ -19,3 +19,5 @@ export NVM_DIR="$HOME/.nvm" && . "/usr/local/opt/nvm/nvm.sh"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm"  ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+# tmux
+alias tmux='TERM=screen-256color tmux -2'

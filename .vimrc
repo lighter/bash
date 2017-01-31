@@ -65,6 +65,7 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 
 " 佈景主題設定
 se t_Co=256
+set term=screen-256color
 " let g:solarized_termcolors=256
 " colorscheme solarized
 " set background=dark
@@ -107,6 +108,9 @@ set shiftwidth=4
 " 顯示空白 tab
 " set listchars=eol:$,tab:>.,trail:~,extends:>,precedes:<
 " set list
+
+" copy clipboard
+set clipboard=unnamed
 
 " NERDTree map
 map <leader>kb :NERDTreeToggle<CR>
