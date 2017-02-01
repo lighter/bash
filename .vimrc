@@ -49,6 +49,12 @@ NeoBundle 'dkprice/vim-easygrep'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'tpope/vim-endwise'
 
+" git config --global diff.tool vimdiff
+" git config --global difftool.prompt false
+" git config --global alias.d difftool
+" $ git d FILE_NAME
+NeoBundle 'chrisbra/vim-diff-enhanced'
+
 " 解決powerline 箭號
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
