@@ -36,7 +36,6 @@ NeoBundle 'taglist.vim'
 NeoBundle 'shawncplus/phpcomplete.vim'
 NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'airblade/vim-gitgutter'
-NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'easymotion/vim-easymotion'
 NeoBundle 'mattn/emmet-vim'
@@ -54,6 +53,8 @@ NeoBundle 'tpope/vim-endwise'
 " git config --global alias.d difftool
 " $ git d FILE_NAME
 NeoBundle 'chrisbra/vim-diff-enhanced'
+
+NeoBundle 'tpope/vim-ragtag'
 
 " 解決powerline 箭號
 let g:airline_powerline_fonts = 1
