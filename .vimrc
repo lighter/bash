@@ -56,6 +56,9 @@ NeoBundle 'chrisbra/vim-diff-enhanced'
 
 NeoBundle 'tpope/vim-ragtag'
 
+" theme
+NeoBundle 'tomasr/molokai'
+
 " 解決powerline 箭號
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
@@ -78,7 +81,7 @@ set term=screen-256color
 " set background=dark
 
 syntax enable
-colorscheme molokai
+" colorscheme molokai
 
 " Line 設定
 let g:indentLine_color_term = 239
