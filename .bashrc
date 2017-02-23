@@ -21,3 +21,12 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # tmux
 alias tmux='TERM=screen-256color tmux -2'
+
+# git
+alias gs='git status'
+alias gcm='git commit -m'
+alias ga='git add .'
+alias gl='git log --oneline'
+
+# tree
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
