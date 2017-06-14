@@ -81,7 +81,7 @@ set term=screen-256color
 " set background=dark
 
 syntax enable
-" colorscheme molokai
+colorscheme molokai
 
 " Line 設定
 let g:indentLine_color_term = 239

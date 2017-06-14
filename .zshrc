@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew osx npm node rake-fast docker)
+plugins=(git brew osx npm node rake-fast docker zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,7 +86,10 @@ source $ZSH/oh-my-zsh.sh
 
 # -------------------------------------------
 # zsh-completions
-fpath=(/usr/local/share/zsh-completions $fpath)
+#autoload -U compinit && compinit
 
 # bashrc
 [[ -e ~/.bashrc  ]] && emulate sh -c 'source ~/.bashrc'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
